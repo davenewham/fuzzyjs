@@ -1,0 +1,25 @@
+{
+  "name": "fuzzyjs",
+  "version": "1.0.0",
+  "description": "A collection of fuzzy algorithms",
+  "main": "index.js",
+  "dependencies": {
+    "execution-time": "^1.3.0",
+    "mathjs": "^5.4.0",
+    "natural-brain": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davenewham/fuzzyjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davenewham/fuzzyjs/issues"
+  },
+  "homepage": "https://github.com/davenewham/fuzzyjs#readme"
+}

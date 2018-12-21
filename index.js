@@ -1,6 +1,10 @@
 var hamming = require('./hamming.js');
+var levenshtein = require('./levenshtein.js');
 
-x = 'test1';
-y = 'test2';
+x = 'davidnewham';
+y = 'davednewham';
 
 console.log(hamming.hammingDistance(x,y));
+console.log(levenshtein.levenstheinDistance(x,y)); 
+
+
