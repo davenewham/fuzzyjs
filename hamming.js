@@ -1,8 +1,8 @@
 // hamming distance
 // strings *must* be of equal length
 
-module.exports = {
-        hammingDistance:function(x,y) {
+
+        hammingDistance = function(x,y) {
 
         if (x.length != y.length) {
             console.log("error: cannot calculate hamming value of strings of different length!");
@@ -21,4 +21,4 @@ module.exports = {
         return (count);
     }
 
-};
+module.exports = hammingDistance;

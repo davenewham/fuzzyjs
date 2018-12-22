@@ -2,8 +2,8 @@
 const math = require('mathjs')
 
 
-module.exports = {
-    levenstheinDistance: function (x, y) {
+
+    levenstheinDistance = function (x, y) {
         n = x.length;
         m = y.length;
         if (n == 0) {
@@ -44,10 +44,9 @@ module.exports = {
         }
 
 
-        console.log("return distance of" +  matrix.get([n,m]));
+      //  console.log("return distance of" +  matrix.get([n,m]));
         return matrix.get([n,m]);
 
     }
 
-
-};
+module.exports = levenstheinDistance;
