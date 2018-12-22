@@ -1,11 +1,13 @@
 var hamming = require('./hamming.js');
 var levenshtein = require('./levenshtein.js');
 var jaroDistance = require('./jaro.js');
-x = 'daved';
-y = 'dovid';
+var jaroWinklerDistance = require('./jarowinkler.js');
+x = 'david';
+y = 'daved';
 
 console.log("Hamming: " + hammingDistance(x,y));
 console.log("Levensthein: " + levenstheinDistance(x,y));
 console.log("Jaro Distance: " + jaroDistance(x,y));
+console.log("Jaro Winkler:" +jaroWinklerDistance(x,y));
 
 
