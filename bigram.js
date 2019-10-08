@@ -11,3 +11,5 @@ const bigram = function (sentence) {
 
     return array;
 }
+
+module.exports = bigram; 
