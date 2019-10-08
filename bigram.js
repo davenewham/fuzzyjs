@@ -1,5 +1,5 @@
 /* Returns an array of consecutive 2-letter pairs of the given sentence. */
-const bigram = function (sentence) {
+bigram = function (sentence) {
     var letters = sentence.split('');
     var array = [];
 
