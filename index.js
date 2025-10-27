@@ -1,16 +1,10 @@
-var hamming = require('./hamming.js');
-var levenshtein = require('./levenshtein.js');
-var jaroDistance = require('./jaro.js');
-var jaroWinklerDistance = require('./jarowinkler.js');
-var naive = require('./naive.js');
-
-x = 'david';
-y = 'daved';
-
-console.log("Naive Match: " + naive(x,y));
-console.log("Hamming: " + hammingDistance(x,y));
-console.log("Levensthein: " + levenstheinDistance(x,y));
-console.log("Jaro Distance: " + jaroDistance(x,y));
-console.log("Jaro Winkler: " + jaroWinklerDistance(x,y));
-
+module.exports = {
+    hamming: require('./hamming.js'),
+    levenshtein: require('./levenshtein.js'),
+    jaroDistance: require('./jaro.js'),
+    jaroWinklerDistance: require('./jarowinkler.js').default,
+    naive: require('./naive.js'),
+    bigram: require('./bigram.js'),
+    jaccard: require('./jaccard.js')
+}
 

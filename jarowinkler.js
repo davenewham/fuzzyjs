@@ -1,5 +1,4 @@
 // JaroWinkler Distance
-const math = require('mathjs')
 var jaroDistance = require('./jaro.js');
 
 const p = 0.1; //scaling factor for calculation

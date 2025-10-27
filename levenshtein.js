@@ -1,9 +1,7 @@
 // levensthein distance
 const math = require('mathjs')
 
-
-
-    levenstheinDistance = function (x, y) {
+levenstheinDistance = function (x, y) {
         n = x.length;
         m = y.length;
         if (n == 0) {
@@ -44,7 +42,6 @@ const math = require('mathjs')
         }
 
 
-      //  console.log("return distance of" +  matrix.get([n,m]));
         return matrix.get([n,m]);
 
     }
