@@ -16,8 +16,8 @@ const countMatchingChars = function (s1, s2) {
     let s2_length = s2.length;
 
     let distance = maxMatchingDistance(s1_length, s2_length);
-    var s1_matches = new Array(s1_length);
-    var s2_matches = new Array(s2_length);
+    let s1_matches = new Array(s1_length);
+    let s2_matches = new Array(s2_length);
 
     let m = 0;
     [...s1].forEach(function (char, i) {

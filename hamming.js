@@ -8,7 +8,7 @@ hammingDistance = function (x, y) {
 
 
     count = 0;
-    for (var i = 0; i < x.length; i++) {
+    for (let i = 0; i < x.length; i++) {
         if (x[i] != y[i]) {
             count++;
         }

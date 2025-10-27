@@ -1,4 +1,4 @@
-var bigram = require('./bigram.js');
+const bigram = require('./bigram.js');
 
 /* Calculates the Jaccard similarity coefficient of two given strings. */
 jaccard = function (a, b) {
